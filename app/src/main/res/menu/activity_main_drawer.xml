@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_req_get"
+            android:icon="@drawable/ic_http_black_24dp"
+            android:title="GET" />
+        <item
+            android:id="@+id/nav_req_post"
+            android:icon="@drawable/ic_http_black_24dp"
+            android:title="POST" />
+        <item
+            android:id="@+id/nav_req_delete"
+            android:icon="@drawable/ic_http_black_24dp"
+            android:title="DELETE" />
+        <item
+            android:id="@+id/nav_req_put"
+            android:icon="@drawable/ic_http_black_24dp"
+            android:title="PUT" />
+    </group>
+
+</menu>
